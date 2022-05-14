@@ -1,0 +1,98 @@
+/* style.css --- global stylesheet */
+
+body {
+    max-width: 72ch;
+
+    line-height: 1.5;
+
+    margin: auto;
+    padding: 2ch;
+
+    font-family: Atkinson Hyperlegible, DejaVu Sans, Sans-serif;
+}
+
+body > header {
+    padding-bottom: 10px;
+    margin-right: 0;
+    border-bottom: 1px solid;
+}
+
+body > header h1 {
+    padding: 10px;
+    text-align: right;
+    font-variant: small-caps;
+    font-weight: normal;
+}
+
+body > header nav {
+    margin: 0;
+    padding: 0;
+}
+
+#avatar {
+    width: 10ch;
+    border-radius: 50%;
+    float: right;
+    margin-right: 10px;
+}
+
+ul {
+    padding-left: 2ch;
+}
+
+ul li {
+    list-style-type: '🏵️ ';
+}
+
+ul li li {
+    list-style-type: '🌸 ';
+}
+
+ul li li li {
+    list-style-type: '💮 ';
+}
+
+a.footnote-ref sup {
+    font-size: .7em;
+    line-height: 1;
+    font-family: serif;
+}
+
+a.footnote-ref sup:before {
+    content: '['
+}
+
+a.footnote-ref sup:after {
+    content: ']'
+}
+
+section.footnotes {
+    font-size: .8em;
+    line-height: 1;
+}
+
+section.footnotes ol {
+    padding-left: 2ch;
+}
+
+section.footnotes ol li::marker {
+    font-weight: 700;
+    font-size: .7em;
+}
+
+section.footnotes hr {
+    width: 40%;
+    border: none;
+    border: 1px solid;
+    margin-left: 0;
+}
+
+footer {
+    font-size: .7em;
+    text-align: right;
+    border-top: 1px solid;
+}
+
+a.footnote-ref {
+    text-decoration: none;
+}
